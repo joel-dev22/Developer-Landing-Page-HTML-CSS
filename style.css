@@ -81,5 +81,39 @@ body {
 .card {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+  /* overflow: hidden; */
+  backface-visibility: hidden;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card div {
+  padding: 20px;
+}
+
+.skill-section__heading {
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 15px;
+}
+
+.card p:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+}
+
+.about {
+  background-color: rgb(16, 71, 16);
+  padding: 40px;
+}
+
+.contact {
+  background-color: rgb(78, 6, 6);
+  padding: 40px;
 }
